@@ -8,8 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    
+    {{ if eq .Title .Site.Title}}
+    <title>{{ .Title }} - {{ .Site.Params.Description }}</title>
+    {{ else }}
     <title>{{ .Title }} -- {{ .Site.Title }}</title>
+    {{ end }}
 
     {{ if .RSSlink }}
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -51,7 +55,6 @@
                 </button>
                 <a class="navbar-brand" href="/">{{ .Site.Title }}</a>
             </div>
-
             {{ partial "navbar.html" . }}
         </div>
         <!-- /.container -->
