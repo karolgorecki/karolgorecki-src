@@ -11,6 +11,9 @@ public:
 	rm -rf ../karolgorecki.github.io/
 	hugo -d ../karolgorecki.github.io/
 	cp file.cname ../karolgorecki.github.io/CNAME
+	git add . && \
+	git commit -m "Updated source" && \
+	git push origin master -f
 	cd ../karolgorecki.github.io && \
 	git init && \
 	git remote add origin git@github.com:karolgorecki/karolgorecki.github.io.git && \
