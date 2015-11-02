@@ -1,4 +1,4 @@
-baseurl = "http://localhost"
+baseurl = "http://karolgorecki.pl"
 title = "Karol Górecki"
 canonifyurls = true
 paginate = 10
