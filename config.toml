@@ -1,0 +1,33 @@
+baseurl = "http://localhost"
+title = "Karol Górecki"
+canonifyurls = true
+paginate = 10
+theme = "current"
+languageCode = "en-us"
+copyright = "© 2015 by Karol Górecki"
+
+[author]
+  name = "Karol Górecki"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "frontend developer ● gopher ● tech lover"
+  Author = "Karol Górecki"
+  email = "hi@karolgorecki.pl"
+  Ganalytics = "XX-00000000-0"
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/karolgorecki"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/karolgorecki"
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "archive"
+  url = "/post/"
+  weight = 0
