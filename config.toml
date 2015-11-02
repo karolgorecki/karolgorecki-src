@@ -14,7 +14,7 @@ copyright = "© 2015 by Karol Górecki"
   Description = "frontend developer ● gopher ● tech lover"
   Author = "Karol Górecki"
   email = "hi@karolgorecki.pl"
-  Ganalytics = "XX-00000000-0"
+  Ganalytics = "UA-69602801-1"
 
 [[params.social]]
   title = "twitter"
