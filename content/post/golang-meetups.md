@@ -10,9 +10,14 @@ categories:
 ---
 
 
-# Spotkania Golang - Gophers Katowice
-Dla wszystkich osób chcących poznać Golang mam miłą informację!  
-W Katowicach otwiermay grupę [**Gophers Katowice**](http://meetup.com/Gophers-Katowice/).  
+Spotkania Golang - Gophers Katowice
+===================================
+
+![Gophers Katowice](http://gophers.katowice.pl/gophers-katowice.png)
+
+
+**Dla wszystkich osób chcących poznać Golang mam miłą informację!  
+W Katowicach otwiermay grupę [Gophers Katowice](http://meetup.com/Gophers-Katowice/).**  
 
 Spotkania są przeznaczone głównie dla osób początkujących jednak znajdzie się coś ciekawego dla osób,
 które już posiadają jakieś doświadczenie.
