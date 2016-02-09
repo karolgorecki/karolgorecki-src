@@ -1,18 +1,14 @@
-+++
-title = "Golang meetups Katowice"
-description = ""
-tags = [
-    "go",
-    "golang",
-    "katowice",
-    "meetup",
-]
-date = "2015-09-10"
-categories = [
-    "golang",
-    "meetup",
-]
-+++
+---
+title: "Golang meetups Katowice"
+description: ""
+image: "/img/golang.jpg"
+tags: ["go", "golang", "katowice", "meetup"]
+date: "2015-09-10"
+categories:
+    - "golang"
+    - "meetup"
+---
+
 
 # Spotkania Golang - Gophers Katowice
 Dla wszystkich osób chcących poznać Golang mam miłą informację!  

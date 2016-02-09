@@ -4,7 +4,7 @@ canonifyurls = true
 paginate = 10
 theme = "current"
 languageCode = "en-us"
-copyright = "© 2015 by Karol Górecki"
+copyright = "© 2016 by Karol Górecki"
 
 [author]
   name = "Karol Górecki"
