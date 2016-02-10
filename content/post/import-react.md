@@ -1,9 +1,8 @@
 ---
 title: "Lepsze importowanie plików w ReactJS"
 description: "Jak usprawnić importowanie w projektach opartych o Webpack i React"
-draft: true
 tags: ["react", "js"]
-date: "2015-12-10"
+date: "2015-12-20"
 categories:
     - "js"
     - "react"
