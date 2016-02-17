@@ -1,7 +1,6 @@
 ---
 title: "Piszemy paczkę NPM w es6"
 description: "Jak opublikować paczę npm z wykorzystaniem es6, es7 oraz Babel CLI"
-draft: true
 tags: ["js","npm"]
 date: "2016-01-02"
 categories:
