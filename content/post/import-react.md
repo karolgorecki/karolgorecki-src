@@ -46,3 +46,57 @@ import Bar from '~/containers/common/Bar.js';
 import Foo from 'components/Foo';
 import Bar from 'containers/common/Bar.js';
 ```
+
+# Webpack modulesDirectories
+Inną i nieco lepszą opcją jest użycie `modulesDirectories`. Do konfiguracji musimy dodać:
+```
+...
+resolve: {
+    modulesDirectories: [
+      'src', // dodajemy katalog src
+      'node_modules'
+    ],
+...
+```
+
+Do sekcji `modulesDirectories` dodajmy katalog `src`, w którym będziemy trzymać nasze komponenty,
+kontenery itd. Kolejnym krokiem jest stworzenie pliku `index.js` dla komponentów oraz kontenerów.
+Dla przykładu przyjrzyjmy się następującej strukturze
+```js
+nasz-projekt
+    |--- src
+    |    |--- components
+    |    |    |--- Time
+    |    |    |    `--- Time.js
+    |    |    |--- Counter
+    |    |    |    `--- Counter.js
+    |    |    `--- Button
+    |    |    |    `--- Button.js
+    |    |    `--- index.js // zawiera indeks komponentów
+    |    |--- containers
+    |    |    |--- Home
+    |    |    |    `--- Home.js
+    |    |    |--- About
+    |    |    |    `--- About.js
+    |    |    `--- Contact
+    |    |    |    `--- Contact.js
+    |    |    `--- index.js // zawiera indeks kontenerów
+    |    `--- ...
+    `--- ...
+```
+Interesują nas tutaj pliki `index.js` w katalogu `src/components` oraz `src/containers`.
+W naszych indeksach powinniśmy wyeksportować komponenty, które później chcemy importować:
+
+```js
+// src/components/index.js
+export Time from './Time/Time';
+export Counter from './Counter/Counter';
+export Button from './Button/Button';
+```
+w powyższym kodzie eksportujemy wszystkie (3) nasze komponenty. Dzięki temu od teraz możemy importować tak:
+
+```js
+// src/containers/home
+import {Time, Button} from 'components';
+```
+Trzeba przyznać, że takie importowanie jest o wiele czytelniejsze i przyjemniejsze 🙂
