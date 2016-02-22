@@ -64,25 +64,25 @@ kontenery itd. Kolejnym krokiem jest stworzenie pliku `index.js` dla komponentó
 Dla przykładu przyjrzyjmy się następującej strukturze
 ```js
 nasz-projekt
-    |--- src
-    |    |--- components
-    |    |    |--- Time
-    |    |    |    `--- Time.js
-    |    |    |--- Counter
-    |    |    |    `--- Counter.js
-    |    |    `--- Button
-    |    |    |    `--- Button.js
-    |    |    `--- index.js // zawiera indeks komponentów
-    |    |--- containers
-    |    |    |--- Home
-    |    |    |    `--- Home.js
-    |    |    |--- About
-    |    |    |    `--- About.js
-    |    |    `--- Contact
-    |    |    |    `--- Contact.js
-    |    |    `--- index.js // zawiera indeks kontenerów
-    |    `--- ...
-    `--- ...
+ ├── ...
+ └── src
+     ├── components
+     │   ├── Time
+     │   │   └── Time.js
+     │   ├── Counter
+     │   │   └── Counter.js
+     │   └── Button
+     │   │   └── Button.js
+     │   └── index.js // zawiera indeks komponentów
+     │
+     └── containers
+         ├── Home
+         │   └── Home.js
+         ├── About
+         │   └── About.js
+         └── Contact
+         │   └── Contact.js
+         └── index.js // zawiera indeks kontenerów
 ```
 Interesują nas tutaj pliki `index.js` w katalogu `src/components` oraz `src/containers`.
 W naszych indeksach powinniśmy wyeksportować komponenty, które później chcemy importować:
