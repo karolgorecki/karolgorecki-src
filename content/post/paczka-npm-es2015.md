@@ -6,7 +6,7 @@ date: "2016-01-02"
 categories:
     - "js"
 ---
-Tym razem napiszemy i opublikujemy prostą paczkę es6 / es7.
+Tym razem napiszemy i opublikujemy prostą paczkę es6/es7.
 Nie będziemy skupiać się na samym kodzie, lecz na krokach jakie musimy wykonać aby nasza paczka poprawnie działała.
 
 # Transpilacja kodu do es5
